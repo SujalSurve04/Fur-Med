@@ -1,0 +1,264 @@
+/* General Styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  transition: all 0.5s ease;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #1a1a2e !important;
+  padding: 0.8rem 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f8a978;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand i {
+  color: #f8a978;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 15px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 0.95rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8a978;
+}
+
+/* Sticky Navbar */
+.sticky-navbar {
+  background-color: rgba(0, 0, 0, 0.95) !important;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Header Section */
+/* 
+  If referencing an image from the static folder in external CSS, 
+  do NOT use {{ url_for(...) }}. Instead, use a relative or absolute path.
+*/
+.header-section {
+  /* height, display, align, justify, etc. remain */
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  /* background: <removed so we can do it inline> */
+}
+
+
+.header-overlay {
+  background: rgba(0, 0, 0, 0.848);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.header-overlay h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.header-overlay p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.header-overlay .btn {
+  background-color: #f8a978;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.header-overlay .btn:hover {
+  background-color: #ff6347;
+}
+
+/* Mission Section */
+.mission-section {
+  background-color: #2a2a2a;
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.mission-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mission-section p {
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Diseases Carousel */
+.diseases-carousel {
+  padding: 4rem 2rem;
+}
+
+.diseases-carousel h2 {
+  font-weight: bold;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+
+.diseases-carousel p {
+  color: #666;
+  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.diseases-carousel .card {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  border: none;
+  border-radius: 10px;
+}
+
+.diseases-carousel .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.diseases-carousel .card-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #333;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.diseases-carousel .card-text {
+  font-size: 1rem;
+  color: #666;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.disease-card-group {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Numbers Section */
+.numbers-section {
+  background-color: #1f2833;
+  color: white;
+  padding: 4rem 2rem;
+}
+
+.numbers-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.numbers-section .rect {
+  background-color: #66fcf1;
+  color: #1f2833;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.numbers-section .rect:hover {
+  transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+  background-color: #1a1a2e;
+  color: white;
+  padding: 3rem 2rem;
+}
+
+footer h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer .form-control {
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer .btn-primary {
+  background-color: #f8a978;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer .btn-primary:hover {
+  background-color: #ff6347;
+}
+
+footer .social-icons a {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  color: rgb(194, 185, 185);
+  transition: color 0.3s ease-in-out;
+}
+
+footer .social-icons a:hover {
+  color: #f8a978;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767px) {
+  .header-overlay h1 {
+    font-size: 2.5rem;
+  }
+
+  .header-overlay p {
+    font-size: 1rem;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 0.9rem;
+  }
+
+  .numbers-section .col-md-3 {
+    margin-bottom: 1rem;
+  }
+}

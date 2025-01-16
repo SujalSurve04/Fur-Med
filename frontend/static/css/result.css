@@ -1,0 +1,129 @@
+/* General Body Styling */
+body {
+  /* Slightly larger default font */
+  font-size: 16px;
+  /* Using Roboto for a cleaner look */
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #1a1a2e !important;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .nav-link {
+  color: white !important;
+}
+
+/* Main Container */
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Styling */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  /* Add a subtle shadow effect on hover */
+  transition: box-shadow 0.3s ease;
+}
+.card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  /* Enhanced Card Header: gradient effect */
+  background: linear-gradient(45deg, #007bff, #0056b3);
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 1.75rem;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-body img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 8px;
+}
+
+.card-footer {
+  background-color: #f1f1f1;
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+}
+
+.card-footer h4 {
+  margin-bottom: 1rem;
+}
+
+/* Info List Styling */
+.info-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.info-list li {
+  margin-bottom: 0.75rem;
+}
+
+.info-list li strong {
+  display: inline-block;
+  width: 130px;
+}
+
+/* Text Styling */
+p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+/* Go Back Button */
+.text-center a.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.text-center a.btn-secondary:hover {
+  background-color: #5a6268;
+  color: white;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  background-color: #1a1a2e;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0;
+}
